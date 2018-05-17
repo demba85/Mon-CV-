@@ -1,8 +1,7 @@
 /*  GENERAL */
 
 body{
-  /* font-family: 'Slabo 27px', serif; */
-  font-family: 'Open Sans Condensed', sans-serif;
+  font-family: 'Kavivanar', cursive;
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -33,17 +32,14 @@ section .heading h2{
 
 /* MENU */
 .navbar{
-    background: #d82c2e;
+    background:#d82c2e;
     font-size: 12px;
     letter-spacing: 4px;
     text-transform: uppercase;
     font-weight: bold;
 }
- /* .navbar .navbar-nav{
-      display: inline-block;
-    float: none;
-    vertical-align: top;
-}  */
+
+
 .navbar .navbar-collapse{
     text-align: center !important;
 }
@@ -325,4 +321,62 @@ footer .fas:hover{
 footer h5{
     color: #fff;
     font-weight: normal;
+}
+
+/* qualité header*/
+.header h1 {
+    text-transform: uppercase;
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+.header-underline {
+    width: 150px;
+    border: 3px solid #F15025;
+    margin: 0 auto 20px auto;
+}
+
+.header p {
+    font-size: 16px;
+    padding: 0 30px;
+}
+/* Promise Section*/
+.promise-picture {
+    height: 600px;
+    background: url("images/my.jpg");
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top: 600px solid transparent;
+    border-right:  150px solid whitesmoke;
+}
+
+/* qualité */
+
+.promise-text {
+    height: 600px;
+    background-color: whitesmoke;
+    padding: 40px 20px;
+}
+
+.promise-icone p {
+    font-size: 20px;
+    line-height: 1.2em;
+}
+#promise .fa {
+    color: #F15025;
+    font-size: 40px;
+}
+
+.contact p {
+  color: white;
+}
+
+.contact .fas {
+    color: green;
+    font-size: 35px;
+}
+.profile-picture {
+    float: left;
 }
