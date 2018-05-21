@@ -1,11 +1,12 @@
 /*  GENERAL */
 
 body{
-  font-family: 'Kavivanar', cursive;
+  font-family: 'Poiret One', cursive;
 }
 
 h1,h2,h3,h4,h5,h6 {
     font-weight: bold;
+    
 }
 
 img{
@@ -33,7 +34,7 @@ section .heading h2{
 /* MENU */
 .navbar{
     background:#d82c2e;
-    font-size: 12px;
+    font-size: 15px;
     letter-spacing: 4px;
     text-transform: uppercase;
     font-weight: bold;
@@ -97,12 +98,12 @@ section .heading h2{
 }
 #skills .heading h2{
     color: #d82c2e;
-    /* text-transform: uppercase; */
+    text-transform: uppercase;
 }
 #skills .progress{
-    height: 8%;
+    height: 100%;
     margin: 15px 10px;
-    backface-visibility: #ddd;
+    backface-visibility: #fff;
 }
 #skills .progress-bar{
     background: #d82c2e;
@@ -110,7 +111,7 @@ section .heading h2{
 #skills .progress h5{
     text-shadow: 1px 1px 1px #000;
 }
-.progressd{
+.progress{
    height: 8%;
     margin: 15px 15px;
     backface-visibility: #ddd;
@@ -245,6 +246,7 @@ section .heading h2{
 }
 .education-block h3 {
     color: #d82c2e;
+    font-size: 50px;
 }
 .education-block h4 {
     margin-bottom: 20px;
